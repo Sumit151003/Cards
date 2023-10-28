@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #113449;
+    background-image: linear-gradient(160deg, #113449 14%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 600px;
+    height: 349px;
+    background-color: rgb(120, 0, 52);
+    color: white;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 2px 3px 13px black;
+}
+
+#leftbox{
+    height: 100%;
+    width: 51%;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#leftbox p{
+    font-size: 0.86rem;
+}
+
+#stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    font-size: 0.70rem;
+}
+
+#rightbox{
+    height: 100%;
+    width: 50%;
+    background-image: url(/Photos/minh-pham-HI6gy-p-WBI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
